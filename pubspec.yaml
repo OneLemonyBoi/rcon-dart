@@ -1,8 +1,8 @@
 name: rcon
 description: A client for Minecraft's RCON protocol written in Dart. RCON is a protocol that allows server administrators to remotely execute Minecraft commands.
 version: 1.0.0
-homepage: https://www.github.com/OneLemonyBoi/rcon-dart
-repository: https://www.github.com/OneLemonyBoi/rcon-dart
+homepage: https://github.com/OneLemonyBoi/rcon-dart
+repository: https://github.com/OneLemonyBoi/rcon-dart
 
 environment:
   sdk: '>=2.17.0 <3.0.0'

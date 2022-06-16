@@ -15,4 +15,4 @@ main() async {
 ```
 
 # Command Line Usage
-For command line usage, run the [example.dart](https://www.github.com/OneLemonyBoi/rcon-dart/examples/example.dart) file.
+For command line usage, run the [example.dart](https://github.com/OneLemonyBoi/rcon-dart/blob/master/example/example.dart) file.
