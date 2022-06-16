@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the Client class from the rcon library, for the Dart programming language.">
+  <title>Client class - rcon library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">rcon</a></li>
+    <li><a href="../rcon/rcon-library.html">rcon</a></li>
+    <li class="self-crumb">Client class</li>
+  </ol>
+  <div class="self-name">Client</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">Client</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+
+
+
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="ip" class="property">
+  <span class="name"><a href="../rcon/Client/ip.html">ip</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-io/InternetAddress-class.html">InternetAddress</a></span> 
+
+</dt>
+<dd>
+   
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="messageCount" class="property">
+  <span class="name"><a href="../rcon/Client/messageCount.html">messageCount</a></span>
+  <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd>
+   
+  <div class="features">read / write</div>
+
+</dd>
+
+        <dt id="port" class="property">
+  <span class="name"><a href="../rcon/Client/port.html">port</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd>
+   
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="tcpSocket" class="property">
+  <span class="name"><a href="../rcon/Client/tcpSocket.html">tcpSocket</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-io/RawSocket-class.html">RawSocket</a></span> 
+
+</dt>
+<dd>
+   
+  <div class="features">final</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="close" class="callable">
+  <span class="name"><a href="../rcon/Client/close.html">close</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+        <dt id="listen" class="callable">
+  <span class="name"><a href="../rcon/Client/listen.html">listen</a></span><span class="signature">(<wbr><span class="parameter" id="listen-param-onData"><span class="type-annotation">void</span> <span class="parameter-name">onData</span>(<span class="parameter" id="param-event"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-io/RawSocketEvent-class.html">RawSocketEvent</a></span> <span class="parameter-name">event</span></span>)?, </span><span class="parameter" id="listen-param-onError">{<span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Function-class.html">Function</a>?</span> <span class="parameter-name">onError</span>, </span><span class="parameter" id="listen-param-onDone"><span class="type-annotation">void</span> <span class="parameter-name">onDone</span>()?, </span><span class="parameter" id="listen-param-cancelOnError"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">cancelOnError</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-async/StreamSubscription-class.html">StreamSubscription</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.dart.dev/stable/2.16.1/dart-io/RawSocketEvent-class.html">RawSocketEvent</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+        <dt id="login" class="callable">
+  <span class="name"><a href="../rcon/Client/login.html">login</a></span><span class="signature">(<wbr><span class="parameter" id="login-param-password"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/String-class.html">String</a></span> <span class="parameter-name">password</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="read" class="callable">
+  <span class="name"><a href="../rcon/Client/read.html">read</a></span><span class="signature">(<wbr><span class="parameter" id="read-param-len">[<span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">len</span>]</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-typed_data/Uint8List-class.html">Uint8List</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+        <dt id="send" class="callable">
+  <span class="name"><a href="../rcon/Client/send.html">send</a></span><span class="signature">(<wbr><span class="parameter" id="send-param-msg"><span class="type-annotation"><a href="../rcon/Message-class.html">Message</a></span> <span class="parameter-name">msg</span>, </span><span class="parameter" id="send-param-offset">[<span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a></span> <span class="parameter-name">offset</span> = <span class="default-value">0</span>, </span><span class="parameter" id="send-param-count"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">count</span>]</span>)
+    <span class="returntype parameter">&#8594; <a href="../rcon/Message-class.html">Message</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="static-methods">
+      <h2>Static Methods</h2>
+      <dl class="callables">
+        <dt id="create" class="callable">
+  <span class="name"><a href="../rcon/Client/create.html">create</a></span><span class="signature">(<wbr><span class="parameter" id="create-param-ip"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/String-class.html">String</a></span> <span class="parameter-name">ip</span>, </span><span class="parameter" id="create-param-port"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.16.1/dart-core/int-class.html">int</a></span> <span class="parameter-name">port</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.16.1/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../rcon/Client-class.html">Client</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+   
+  
+
+</dd>
+
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">rcon</a></li>
+  <li><a href="../rcon/rcon-library.html">rcon</a></li>
+  <li class="self-crumb">Client class</li>
+</ol>
+
+
+    <h5>rcon library</h5>
+    <ol>
+  <li class="section-title"><a href="../rcon/rcon-library.html#classes">Classes</a></li>
+  <li><a href="../rcon/Client-class.html">Client</a></li>
+  <li><a href="../rcon/Message-class.html">Message</a></li>
+
+
+
+
+
+  <li class="section-title"><a href="../rcon/rcon-library.html#functions">Functions</a></li>
+  <li><a href="../rcon/fromInt.html">fromInt</a></li>
+
+  <li class="section-title"><a href="../rcon/rcon-library.html#enums">Enums</a></li>
+  <li><a href="../rcon/PacketType.html">PacketType</a></li>
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+
+
+    <li class="section-title">
+      <a href="../rcon/Client-class.html#instance-properties">Properties</a>
+    </li>
+    <li class="inherited"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li><a href="../rcon/Client/ip.html">ip</a></li>
+    <li><a href="../rcon/Client/messageCount.html">messageCount</a></li>
+    <li><a href="../rcon/Client/port.html">port</a></li>
+    <li class="inherited"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li><a href="../rcon/Client/tcpSocket.html">tcpSocket</a></li>
+
+    <li class="section-title"><a href="../rcon/Client-class.html#instance-methods">Methods</a></li>
+    <li><a href="../rcon/Client/close.html">close</a></li>
+    <li><a href="../rcon/Client/listen.html">listen</a></li>
+    <li><a href="../rcon/Client/login.html">login</a></li>
+    <li class="inherited"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li><a href="../rcon/Client/read.html">read</a></li>
+    <li><a href="../rcon/Client/send.html">send</a></li>
+    <li class="inherited"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/toString.html">toString</a></li>
+
+    <li class="section-title inherited"><a href="../rcon/Client-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.dart.dev/stable/2.16.1/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+    <li class="section-title"><a href="../rcon/Client-class.html#static-methods">Static methods</a></li>
+    <li><a href="../rcon/Client/create.html">create</a></li>
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    rcon
+      1.0.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+
